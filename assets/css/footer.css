@@ -1,0 +1,128 @@
+footer .parceiros {
+  background-color: #dbe296;
+  position: relative;
+  padding-top: 30px;
+}
+
+footer .parceiros::before {
+  content: "";
+  width: 2%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #ffffff;
+}
+
+footer .parceiros::after {
+  content: "";
+  width: 2%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #ffffff;
+}
+
+footer .parceiros figcaption,
+footer .parceiros p {
+  font-family: 'Myriad Pro';
+  font-weight: normal;
+  font-style: normal;
+  color: #1d1d1b;
+  font-size: 11px;
+  line-height: 11px;
+}
+
+footer .parceiros p {
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 17px;
+}
+
+footer .parceiros figcaption {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+footer .parceiros .l {
+  border-left: solid 2px #1d1d1b;
+}
+
+footer .parceiros .box1 {
+  margin-bottom: 30px;
+}
+
+footer .menu-footer {
+  background-color: #005628;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+footer .menu-footer p {
+  font-family: 'Myriad Pro';
+  font-weight: normal;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+footer .menu-footer .navbar-nav li {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+footer .menu-footer .navbar-nav li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: 'Myriad Pro';
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+  font-size: 14px;
+  line-height: 14px;
+  border-right: 1px solid #fff;
+  text-transform: uppercase;
+}
+
+footer .menu-footer .navbar-nav li > a:focus,
+footer .menu-footer .navbar-nav li > a:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+footer .menu-footer .navbar-nav li:last-child a {
+  border-right: 0px solid transparent;
+}
+
+footer .menu-footer .navbar-nav li:first-child a {
+  padding-left: 0;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  footer .parceiros {
+    padding-top: 10px;
+  }
+  footer .parceiros::before {
+    width: 1.5%;
+  }
+  footer .parceiros::after {
+    width: 1.5%;
+  }
+  footer .parceiros .box1 {
+    margin-bottom: 10px;
+  }
+  footer .parceiros .box1 img {
+    max-width: 80%;
+  }
+  footer .menu-footer .navbar-nav li:first-child a {
+    padding-left: 15px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=footer.css.map */

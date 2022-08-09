@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("../fonts/MyriadPro-Regular.eot");
+  src: url("../fonts/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-Regular.woff2") format("woff2"), url("../fonts/MyriadPro-Regular.woff") format("woff"), url("../fonts/MyriadPro-Regular.ttf") format("truetype"), url("../fonts/MyriadPro-Regular.svg#MyriadPro-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("../fonts/MyriadPro-BoldCondIt.eot");
+  src: url("../fonts/MyriadPro-BoldCondIt.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-BoldCondIt.woff2") format("woff2"), url("../fonts/MyriadPro-BoldCondIt.woff") format("woff"), url("../fonts/MyriadPro-BoldCondIt.ttf") format("truetype"), url("../fonts/MyriadPro-BoldCondIt.svg#MyriadPro-BoldCondIt") format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("../fonts/MyriadPro-Semibold.eot");
+  src: url("../fonts/MyriadPro-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-Semibold.woff2") format("woff2"), url("../fonts/MyriadPro-Semibold.woff") format("woff"), url("../fonts/MyriadPro-Semibold.ttf") format("truetype"), url("../fonts/MyriadPro-Semibold.svg#MyriadPro-Semibold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ITC Franklin Gothic Std';
+  src: url("../fonts/ITCFranklinGothicStd-BkCd.eot");
+  src: url("../fonts/ITCFranklinGothicStd-BkCd.eot?#iefix") format("embedded-opentype"), url("../fonts/ITCFranklinGothicStd-BkCd.woff2") format("woff2"), url("../fonts/ITCFranklinGothicStd-BkCd.woff") format("woff"), url("../fonts/ITCFranklinGothicStd-BkCd.ttf") format("truetype"), url("../fonts/ITCFranklinGothicStd-BkCd.svg#ITCFranklinGothicStd-BkCd") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url("../fonts/BebasNeueBold.eot");
+  src: url("../fonts/BebasNeueBold.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeueBold.woff2") format("woff2"), url("../fonts/BebasNeueBold.woff") format("woff"), url("../fonts/BebasNeueBold.ttf") format("truetype"), url("../fonts/BebasNeueBold.svg#BebasNeueBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url("../fonts/BebasNeueRegular.eot");
+  src: url("../fonts/BebasNeueRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeueRegular.woff2") format("woff2"), url("../fonts/BebasNeueRegular.woff") format("woff"), url("../fonts/BebasNeueRegular.ttf") format("truetype"), url("../fonts/BebasNeueRegular.svg#BebasNeueRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ITC Franklin Gothic Std';
+  src: url("../fonts/ITCFranklinGothicStd-Book.eot");
+  src: url("../fonts/ITCFranklinGothicStd-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/ITCFranklinGothicStd-Book.woff2") format("woff2"), url("../fonts/ITCFranklinGothicStd-Book.woff") format("woff"), url("../fonts/ITCFranklinGothicStd-Book.ttf") format("truetype"), url("../fonts/ITCFranklinGothicStd-Book.svg#ITCFranklinGothicStd-Book") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ITC Franklin Gothic Std';
+  src: url("../fonts/ITCFranklinGothicStd-DmCd.eot");
+  src: url("../fonts/ITCFranklinGothicStd-DmCd.eot?#iefix") format("embedded-opentype"), url("../fonts/ITCFranklinGothicStd-DmCd.woff2") format("woff2"), url("../fonts/ITCFranklinGothicStd-DmCd.woff") format("woff"), url("../fonts/ITCFranklinGothicStd-DmCd.ttf") format("truetype"), url("../fonts/ITCFranklinGothicStd-DmCd.svg#ITCFranklinGothicStd-DmCd") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ITC Franklin Gothic Std';
+  src: url("../fonts/ITCFranklinGothicStd-Med.eot");
+  src: url("../fonts/ITCFranklinGothicStd-Med.eot?#iefix") format("embedded-opentype"), url("../fonts/ITCFranklinGothicStd-Med.woff2") format("woff2"), url("../fonts/ITCFranklinGothicStd-Med.woff") format("woff"), url("../fonts/ITCFranklinGothicStd-Med.ttf") format("truetype"), url("../fonts/ITCFranklinGothicStd-Med.svg#ITCFranklinGothicStd-Med") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+/*# sourceMappingURL=fonts.css.map */

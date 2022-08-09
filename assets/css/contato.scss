@@ -1,0 +1,168 @@
+.contato {
+    background-color: #dbe296;
+    position: relative;
+    padding-top: 10px;
+    // padding-bottom: 30px;
+
+    &::before {
+        content: "";
+        width: 2%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: #ffffff;
+    }
+
+    &::after {
+        content: "";
+        width: 2%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: #ffffff;
+    }
+
+    .group-form {
+
+        .form-group {
+            padding-left: 8px;
+            padding-right: 8px;
+            margin-bottom: 10px;
+        }
+
+        .form-control {
+            font-family: 'Myriad Pro';
+            font-weight: normal;
+            font-style: normal;
+            height: 50px;
+            padding: 6px 12px;
+            font-size: 13px;
+            line-height: 1.42857143;
+            color: #4c4034;
+            background-color: #fff;
+            border: 2px solid #769718;
+            border-radius: 25px;
+            box-shadow: none;
+
+            &::-webkit-input-placeholder {
+                color: #4c4034;
+            }
+
+            &:-ms-input-placeholder {
+                color: #4c4034;
+            }
+
+            &::placeholder {
+                color: #4c4034;
+            }
+        }
+
+        textarea {
+            height: 125px !important;
+        }
+
+        .btn_enviar {
+            font-family: 'Myriad Pro';
+            font-weight: normal;
+            font-style: normal;
+            padding: 12px 30px 8px 30px;
+            margin-bottom: 0;
+            font-size: 14px;
+            letter-spacing: 3px;
+            font-weight: 400;
+            line-height: 1.42857143;
+            border: 0px solid transparent;
+            border-radius: 25px;
+            color: #ffffff;
+            background-color: #004420;
+            float: right;
+            text-transform: uppercase;
+
+            &:hover,
+            &:focus {
+                background-color: #769718;
+                outline: none;
+                outline-offset: 0px;
+            }
+        }
+    }
+
+    small {
+        font-family: 'Myriad Pro';
+        font-weight: normal;
+        font-style: normal;
+        color: #769718;
+        font-size: 10px;
+        line-height: 13px;
+        display: block;
+    }
+
+    .showroom {
+        padding-top: 20px;
+        padding-bottom: 10px;
+
+        .tt-04,
+        .tt-05 {
+            font-family: 'Bebas Neue';
+            font-weight: bold;
+            font-style: normal;
+            color: #00541f;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .tt-04 {
+            font-size: 40px;
+            line-height: 40px;
+        }
+
+        .tt-05 {
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .contato {
+        padding-bottom: 20px;
+
+        &::before {
+            width: 1.5%;
+        }
+
+        &::after {
+            width: 1.5%;
+        }
+        small {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .showroom {
+            padding-top: 20px;
+            padding-bottom: 10px;
+
+            .tt-04 {
+                font-size: 35px;
+                line-height: 35px;
+            }
+    
+            .tt-05 {
+                font-size: 17px;
+                line-height: 27px;
+            }
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

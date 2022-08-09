@@ -1,0 +1,276 @@
+.faixa-01 {
+    background-color: #00541f;
+    padding-top: 17px;
+    padding-bottom: 17px;
+
+    p {
+        font-family: 'Bebas Neue';
+        font-weight: bold;
+        font-style: normal;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: 4px;
+    }
+}
+
+.faixa-02 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #dbe296;
+    position: relative;
+
+    &::before {
+        content: "";
+        width: 2%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: #ffffff;
+    }
+
+    &::after {
+        content: "";
+        width: 2%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: #ffffff;
+    }
+
+    p {
+        font-family: 'Bebas Neue';
+        font-weight: bold;
+        font-style: normal;
+        color: #00541f;
+        text-transform: uppercase;
+        font-size: 40px;
+        line-height: 45px;
+        letter-spacing: 10px;
+    }
+
+    a {
+        position: absolute;
+        left: 3%;
+        bottom: -12px;
+    }
+}
+
+.terrenos360 {
+    background-color: #dbe296;
+    position: relative;
+    margin-top: -5px;
+
+    &::before {
+        content: "";
+        width: 2%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: #ffffff;
+    }
+
+    &::after {
+        content: "";
+        width: 2%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: #ffffff;
+    }
+
+    .terrenos360Img {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .txt {
+        padding-bottom: 20px;
+
+        p {
+            padding-left: 30px;
+            padding-right: 30px;
+            font-family: 'Myriad Pro';
+            font-weight: normal;
+            font-style: normal;
+            color: #1d1d1b;
+            font-size: 19px;
+            line-height: 27px;
+        }
+    }
+}
+
+.min7 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    .tt-01 {
+        font-family: 'Bebas Neue';
+        font-weight: bold;
+        font-style: normal;
+        color: #ff4d00;
+        text-transform: uppercase;
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: 4px;
+        margin-bottom: 20px;
+    }
+
+    .tt-02 {
+        font-family: 'Bebas Neue';
+        font-weight: bold;
+        font-style: normal;
+        color: #00541f;
+        text-transform: uppercase;
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: 4px;
+    }
+}
+
+.fale {
+    padding-top: 20px;
+
+    .tt-03 {
+        font-family: 'Bebas Neue';
+        font-weight: bold;
+        font-style: normal;
+        color: #ff4d00;
+        text-transform: uppercase;
+        font-size: 25px;
+        line-height: 35px;
+        letter-spacing: 4px;
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .faixa-01 {
+        padding-top: 14px;
+        padding-bottom: 8px;
+
+        p {
+            font-size: 25px;
+            line-height: 25px;
+        }
+    }
+
+    .faixa-02 {
+        padding-top: 10px;
+        padding-bottom: 7px;
+
+        &::before {
+            width: 1.5%;
+        }
+
+        &::after {
+            width: 1.5%;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 25px;
+            letter-spacing: 5px;
+        }
+
+        a {
+            position: relative;
+            left: 0%;
+            bottom: 0;
+            font-family: 'Bebas Neue';
+            font-weight: bold;
+            font-style: normal;
+            background-color: #00541f;
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: 15px;
+            line-height: 15px;
+            letter-spacing: 4px;
+            display: table;
+            margin: 5px auto 0;
+            padding: 8px 13px 6px;
+            border-radius: 13px;
+            text-decoration: none;
+        }
+    }
+
+    .terrenos360 {
+        margin-top: -5px;
+
+        &::before {
+            width: 1.5%;
+        }
+
+        &::after {
+            width: 1.5%;
+        }
+
+        .terrenos360Img {
+            img {
+                max-width: 90%;
+            }
+
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .txt {
+            padding-bottom: 20px;
+
+            p {
+                padding-left: 20px;
+                padding-right: 20px;
+                font-size: 16px;
+                line-height: 23px;
+            }
+        }
+    }
+
+    .min7 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        .tt-01 {
+            font-size: 23px;
+            line-height: 30px;
+            letter-spacing: 3px;
+            margin-bottom: 10px;
+        }
+
+        .tt-02 {
+            font-size: 23px;
+            line-height: 30px;
+            letter-spacing: 3px;
+        }
+    }
+
+    .fale {
+        padding-top: 15px;
+
+        .tt-03 {
+            font-size: 23px;
+            line-height: 30px;
+            letter-spacing: 3px;
+        }
+    }
+
+    .waze {
+        img {
+            max-width: 90%;
+        } 
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}
