@@ -1,7 +1,7 @@
 footer {
 
     .parceiros {
-        background-color: #dbe296;
+        background-color: #dddc1b;
         position: relative;
         padding-top: 30px;
 
@@ -28,11 +28,12 @@ footer {
         figcaption,
         p {
             font-family: 'Myriad Pro';
-            font-weight: normal;
+            font-weight: bold;
             font-style: normal;
-            color: #1d1d1b;
+            color: black;
             font-size: 11px;
             line-height: 11px;
+            letter-spacing: 3px;
         }
 
         p {
@@ -56,7 +57,7 @@ footer {
     }
 
     .menu-footer {
-        background-color: #005628;
+        background-color: #394a16;
         padding-top: 15px;
         padding-bottom: 10px;
 

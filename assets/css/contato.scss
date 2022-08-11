@@ -1,5 +1,5 @@
 .contato {
-    background-color: #dbe296;
+    background-color: #dddc1b;
     position: relative;
     padding-top: 10px;
     // padding-bottom: 30px;
@@ -42,20 +42,30 @@
             line-height: 1.42857143;
             color: #4c4034;
             background-color: #fff;
-            border: 2px solid #769718;
+            border: 2px solid #7e942a;
             border-radius: 25px;
             box-shadow: none;
+            position: relative;
 
             &::-webkit-input-placeholder {
                 color: #4c4034;
+                position: absolute;
+                left: 5%;
+                top: 5px;
             }
 
             &:-ms-input-placeholder {
                 color: #4c4034;
+                position: absolute;
+                left: 5%;
+                top: 5px;
             }
 
             &::placeholder {
                 color: #4c4034;
+                position: absolute;
+                left: 5%;
+                top: 5px;
             }
         }
 
@@ -76,7 +86,7 @@
             border: 0px solid transparent;
             border-radius: 25px;
             color: #ffffff;
-            background-color: #004420;
+            background-color: #394a16;
             float: right;
             text-transform: uppercase;
 
@@ -93,7 +103,7 @@
         font-family: 'Myriad Pro';
         font-weight: normal;
         font-style: normal;
-        color: #769718;
+        color: #394a16;;
         font-size: 10px;
         line-height: 13px;
         display: block;
@@ -108,7 +118,7 @@
             font-family: 'Bebas Neue';
             font-weight: bold;
             font-style: normal;
-            color: #00541f;
+            color: #394a16;
             text-transform: uppercase;
             letter-spacing: 2px;
         }

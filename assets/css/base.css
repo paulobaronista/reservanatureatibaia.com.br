@@ -161,7 +161,7 @@ p {
   display: table;
   margin: 10% auto 0;
   width: 40%;
-  background-color: #00541f;
+  background-color: #394a16;
   padding: 20px 10px;
   position: relative;
 }
@@ -234,14 +234,14 @@ p {
 .float-box .chat {
   background: url(../images/icone-chat.png) no-repeat right center;
   background-color: rgba(0, 0, 0, 0);
-  background-color: #004420;
+  background-color: #00400a;
   border-radius: 11px;
 }
 
 .float-box .phone {
   background: url(../images/icone-tel.png) no-repeat right center;
   background-color: rgba(0, 0, 0, 0);
-  background-color: #004420;
+  background-color: #00400a;
   border-radius: 11px;
   font-size: 18px;
 }
@@ -249,14 +249,14 @@ p {
 .float-box .mail {
   background: url(../images/icone-mail.png) no-repeat right center;
   background-color: rgba(0, 0, 0, 0);
-  background-color: #004420;
+  background-color: #00400a;
   border-radius: 11px;
 }
 
 .float-box .whats {
   background: url(../images/icone-zap.png) no-repeat right center;
   background-color: rgba(0, 0, 0, 0);
-  background-color: #004420;
+  background-color: #00400a;
   border-radius: 11px;
 }
 

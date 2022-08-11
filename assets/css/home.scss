@@ -1,5 +1,5 @@
 .faixa-01 {
-    background-color: #00541f;
+    background-color: #394a16;
     padding-top: 17px;
     padding-bottom: 17px;
 
@@ -9,16 +9,16 @@
         font-style: normal;
         color: #ffffff;
         text-transform: uppercase;
-        font-size: 50px;
+        font-size: 55px;
         line-height: 50px;
-        letter-spacing: 4px;
+        letter-spacing: 2px;
     }
 }
 
 .faixa-02 {
     padding-top: 12px;
     padding-bottom: 12px;
-    background-color: #dbe296;
+    background-color: #dddc1b;
     position: relative;
 
     &::before {
@@ -45,22 +45,17 @@
         font-family: 'Bebas Neue';
         font-weight: bold;
         font-style: normal;
-        color: #00541f;
+        color: #394a16;
         text-transform: uppercase;
         font-size: 40px;
         line-height: 45px;
         letter-spacing: 10px;
     }
 
-    a {
-        position: absolute;
-        left: 3%;
-        bottom: -12px;
-    }
 }
 
 .terrenos360 {
-    background-color: #dbe296;
+    background-color: #dddc1b;
     position: relative;
     margin-top: -5px;
 
@@ -84,6 +79,26 @@
         background-color: #ffffff;
     }
 
+    .faixa-03 {
+        display: flex;
+        justify-content: center;
+        background-color: #4c5f1d;
+        width: 48%;
+        height: auto;
+        
+        p {
+            font-family: 'Bebas Neue';
+            font-weight: bold;
+            font-style: normal;
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: 3.3vw;
+            line-height: 50px;
+            letter-spacing: 2px;
+            margin: 0.4vw;
+        }
+    }
+    
     .terrenos360Img {
         padding-top: 30px;
         padding-bottom: 30px;
@@ -98,7 +113,7 @@
             font-family: 'Myriad Pro';
             font-weight: normal;
             font-style: normal;
-            color: #1d1d1b;
+            color: #0b0d09;
             font-size: 19px;
             line-height: 27px;
         }
@@ -113,23 +128,23 @@
         font-family: 'Bebas Neue';
         font-weight: bold;
         font-style: normal;
+        color: #394a16;
+        text-transform: uppercase;
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: 4px;
+    }
+    
+    .tt-02 {
+        font-family: 'Bebas Neue';
+        font-weight: bold;
+        font-style: normal;
         color: #ff4d00;
         text-transform: uppercase;
         font-size: 28px;
         line-height: 38px;
         letter-spacing: 4px;
         margin-bottom: 20px;
-    }
-
-    .tt-02 {
-        font-family: 'Bebas Neue';
-        font-weight: bold;
-        font-style: normal;
-        color: #00541f;
-        text-transform: uppercase;
-        font-size: 28px;
-        line-height: 38px;
-        letter-spacing: 4px;
     }
 }
 
@@ -145,7 +160,12 @@
         font-size: 25px;
         line-height: 35px;
         letter-spacing: 4px;
+        margin-bottom: 20px;
     }
+}
+
+.waze {
+    padding-top: 50px;
 }
 
 /* Extra Small */
@@ -177,30 +197,10 @@
             line-height: 25px;
             letter-spacing: 5px;
         }
-
-        a {
-            position: relative;
-            left: 0%;
-            bottom: 0;
-            font-family: 'Bebas Neue';
-            font-weight: bold;
-            font-style: normal;
-            background-color: #00541f;
-            color: #ffffff;
-            text-transform: uppercase;
-            font-size: 15px;
-            line-height: 15px;
-            letter-spacing: 4px;
-            display: table;
-            margin: 5px auto 0;
-            padding: 8px 13px 6px;
-            border-radius: 13px;
-            text-decoration: none;
-        }
     }
 
     .terrenos360 {
-        margin-top: -5px;
+        margin-top: -6px;
 
         &::before {
             width: 1.5%;
@@ -209,7 +209,16 @@
         &::after {
             width: 1.5%;
         }
-
+        
+        .faixa-03 {
+            width: 70%;
+            p {
+                font-size: 4vw;
+                margin: -10px 0;
+            }
+        }
+        
+        
         .terrenos360Img {
             img {
                 max-width: 90%;
@@ -256,10 +265,13 @@
             font-size: 23px;
             line-height: 30px;
             letter-spacing: 3px;
+            margin-bottom: 10px;
         }
     }
 
     .waze {
+        padding-top: 25px;
+
         img {
             max-width: 90%;
         } 
@@ -267,7 +279,17 @@
 }
 
 /* Small */
-@media(min-width:768px) and (max-width:991px) {}
+@media(min-width:768px) and (max-width:991px) {
+    .terrenos360 {
+        .faixa-03 {
+            width: 59%;
+            p {
+                font-size: 4vw;
+                margin: 0;
+            }
+        }
+    }
+}
 
 /* Medium */
 @media(min-width:992px) and (max-width:1199px) {}

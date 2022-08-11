@@ -15,6 +15,14 @@ $(document).on('ready', function () {
         autoplay: true,
         autoplaySpeed: 4000,
     });
+
+    $(".glr-dupla").slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        autoplay: true,
+        autoplaySpeed: 4000,
+    });
 });
 
 $(document).ready(function () {
