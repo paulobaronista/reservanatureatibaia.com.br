@@ -24,7 +24,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
                     <p>
-                        Empreendimento "Reserva Elementum". Projeto de Loteamento aprovado e registrado no Cartório de Registro de Imóveis da Comarca de Atibaia, sob o número da matrícula-mãe: 117.238, tem a NATIVE RESIDENCIAL ATIBAIA como responsável pelo seu desenvolvimento imobiliário. Intermediação: Coelho da Fonseca Empreendimentos Imobiliários Ltda. Creci J-961. Secovi 1191.
+                        Empreendimento "RESERVA NATURE". Projeto de Loteamento aprovado e registrado no Cartório de Registro de Imóveis da Comarca de Atibaia, sob o número da matrícula-mãe: 117.238, tem a NATIVE RESIDENCIAL ATIBAIA como responsável pelo seu desenvolvimento imobiliário. Intermediação: Coelho da Fonseca Empreendimentos Imobiliários Ltda. Creci J-961. Secovi 1191.
                     </p>
                 </div>
             </div>
