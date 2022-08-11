@@ -1,7 +1,7 @@
 <div class="container-fluid faixa-01">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-            <p>SUA RESERVA DE bem-estar.</p>
+            <p>SEUS DIAS MAIS VERDES</p>
         </div>
     </div>
 </div>
@@ -10,14 +10,6 @@
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
             <p>UMA EXCLUSIVIDADE</p>
             <p>PARA 32 FAMÍLIAS EM ATIBAIA</p>
-            <a class="hidden-xs" href="#" data-toggle="modal" data-target="#modalVideo">
-                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/filme.png" alt="Filme">
-            </a>
-            <div class="visible-xs">
-                <a href="#" data-toggle="modal" data-target="#modalVideo">
-                    Clique aqui e assista ao filme
-                </a>
-            </div>
         </div>
     </div>
 </div>
@@ -25,104 +17,133 @@
     <div class="galeria">
         <section class="glr01 slider">
             <div>
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_03.jpg" alt="Reserva Elementum">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_01.jpg" alt="Reserva Nature Atibaia">
             </div>
             <div>
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_01.jpg" alt="Reserva Elementum">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_02.jpg" alt="Reserva Nature Atibaia">
             </div>
             <div>
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_02.jpg" alt="Reserva Elementum">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_02.jpg" alt="Reserva Nature Atibaia">
             </div>
             <div>
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_05.jpg" alt="Reserva Elementum">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_04.jpg" alt="Reserva Nature Atibaia">
             </div>
             <div>
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_04.jpg" alt="Reserva Elementum">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_05.jpg" alt="Reserva Nature Atibaia">
             </div>
         </section>
     </div>
 </div>
 <div class="container-fluid padding-off terrenos360">
+    <div class="container faixa-03">
+        <p>ENTREGA DAS OBRAS EM JULHO/2023</p>
+    </div>
+
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 terrenos360Img">
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terrenos360.png" alt="Reserva Elementum">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terrenos360.png" alt="Reserva Nature Atibaia">
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 txt">
                 <p>
-                    Venha viver junto à natureza, em uma reserva de tranquilidade, na
-                    melhor localização de Atibaia. Construa a casa dos seus sonhos e reserve
-                    dias mais felizes para você e sua família.
+                    RESERVA NATURE é a sua grande oportunidade de viver na melhor localização
+                    de Atibaia, em uma reserva de tranquilidade, liberdade e bem-estar.
+                    Venha construir sua nova casa e sua nova vida junto a uma natureza incomparável!
+                    E reserve dias mais verdes e felizes para você e sua família!
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 text-center vista-maravilhosa">
+                <p>
+                    VENHA SE SURPREENDER COM A VISTA MARAVILHOSA DO LOCAL
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid padding-off">
+        <div class="galeria-dupla">
+            <section class="glr-dupla slider">
+                <div>
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_01.jpg" alt="Reserva Nature Atibaia">
+                </div>
+                <div>
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_02.jpg" alt="Reserva Nature Atibaia">
+                </div>
+                <div>
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_03.jpg" alt="Reserva Nature Atibaia">
+                </div>
+                <div>
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_04.jpg" alt="Reserva Nature Atibaia">
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 text-center min7">
+                <p>
+                    VIVA A 7 MIN. DO CENTRO DE ATIBAIA, <br class="visible-xs">AO LADO DO<br class="hidden-xs">
+                    FUTURO BOULEVARD E SEM TAXA DE CONDOMÍNIO
                 </p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
                 <div class="galeria-lugares">
                     <section class="glr02 slider">
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_01.png" alt="Reserva Elementum">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_01.png" alt="Reserva Nature Atibaia">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_02.png" alt="Reserva Elementum">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_02.png" alt="Reserva Nature Atibaia">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_03.png" alt="Reserva Elementum">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_03.png" alt="Reserva Nature Atibaia">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_04.png" alt="Reserva Elementum">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_04.png" alt="Reserva Nature Atibaia">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_05.png" alt="Reserva Elementum">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_05.png" alt="Reserva Nature Atibaia">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_06.png" alt="Reserva Elementum">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_06.png" alt="Reserva Nature Atibaia">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_07.png" alt="Reserva Elementum">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_07.png" alt="Reserva Nature Atibaia">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_08.png" alt="Reserva Elementum">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_08.png" alt="Reserva Nature Atibaia">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_09.png" alt="Reserva Elementum">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_09.png" alt="Reserva Nature Atibaia">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_10.png" alt="Reserva Elementum">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_10.png" alt="Reserva Nature Atibaia">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_11.png" alt="Reserva Elementum">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_11.png" alt="Reserva Nature Atibaia">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_12.png" alt="Reserva Elementum">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_12.png" alt="Reserva Nature Atibaia">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_13.png" alt="Reserva Elementum">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_13.png" alt="Reserva Nature Atibaia">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_14.png" alt="Reserva Elementum">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_14.png" alt="Reserva Nature Atibaia">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_15.png" alt="Reserva Elementum">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_15.png" alt="Reserva Nature Atibaia">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_16.png" alt="Reserva Elementum">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_16.png" alt="Reserva Nature Atibaia">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_17.png" alt="Reserva Elementum">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_17.png" alt="Reserva Nature Atibaia">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_18.png" alt="Reserva Elementum">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_18.png" alt="Reserva Nature Atibaia">
                         </div>
                     </section>
                 </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 text-center min7">
-                <p class="tt-01">
-                    A 7 MIN. DO CENTRO DE ATIBAIA, TENHA TUDO PERTO EM<br />
-                    SUA RESERVA DE NATUREZA, COMODIDADE E TRANQUILIDADE.
-                </p>
-                <p class="tt-02">
-                    VENHA SE SURPREENDER COM A VISTA MARAVILHOSA DO LOCAL
-                </p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 waze">
                 <a href="#" data-toggle="modal" data-target="#modalMapa">

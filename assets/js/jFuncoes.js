@@ -17,6 +17,8 @@ $(document).on('ready', function () {
     });
 
     $(".glr-dupla").slick({
+        slidesToShow: 2,
+        slidesToScroll: 2,
         dots: false,
         infinite: true,
         speed: 500,

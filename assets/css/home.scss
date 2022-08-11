@@ -120,11 +120,9 @@
     }
 }
 
-.min7 {
-    padding-top: 10px;
-    padding-bottom: 20px;
-
-    .tt-01 {
+.vista-maravilhosa {
+    
+    p {
         font-family: 'Bebas Neue';
         font-weight: bold;
         font-style: normal;
@@ -134,8 +132,17 @@
         line-height: 38px;
         letter-spacing: 4px;
     }
-    
-    .tt-02 {
+}
+
+.galeria-dupla {
+    padding-left: 2vw;
+}
+
+.min7 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    p {
         font-family: 'Bebas Neue';
         font-weight: bold;
         font-style: normal;
@@ -240,18 +247,27 @@
         }
     }
 
-    .min7 {
+    .vista-maravilhosa {
         padding-top: 10px;
         padding-bottom: 10px;
 
-        .tt-01 {
+        p {    
             font-size: 23px;
             line-height: 30px;
             letter-spacing: 3px;
             margin-bottom: 10px;
         }
+    }
+    
+    .galeria-dupla {
+        padding-left: 1.4vw;
+    }
 
-        .tt-02 {
+    .min7 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        p {
             font-size: 23px;
             line-height: 30px;
             letter-spacing: 3px;
