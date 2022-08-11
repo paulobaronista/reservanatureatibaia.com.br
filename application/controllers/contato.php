@@ -18,15 +18,17 @@ class Contato extends CI_Controller{
             $email = $this->input->post('email');
             $telefone = $this->input->post('telefone');
             $mensagem = utf8_decode($this->input->post('mss'));
-            $assunto = utf8_decode('[Novo Lead] LP - Reserva Elementum');
+            $assunto = utf8_decode('[Novo Lead] LP - Reserva Nature Atibaia');
 
             $this->load->library('email');
             $config['mailtype'] = 'html';
             $this->email->initialize($config);
 
-            $this->email->from("contato@reservaelementum.com.br","Reserva Elementum");
-            $this->email->to('contato@reservaelementum.com.br');
-            $this->email->cc('mv_cp_94f_300_1828_3079_13285_73388_3535_3535_faleconosco_landingpage@email.anapro.com.br, renata@spicycomm.com.br, front.baronista@gmail.com, roberta.sabeh@spicycomm.com.br');
+            $this->email->from("contato@reservanatureatibaia.com.br","Reserva Nature Atibaia");
+            $this->email->to('contato@reservanatureatibaia.com.br');
+            /* $this->email->cc('mv_cp_94f_300_1828_3079_13285_73388_3535_3535_faleconosco_landingpage@email.anapro.com.br, renata@spicycomm.com.br, front.baronista@gmail.com, roberta.sabeh@spicycomm.com.br'); */
+            $this->email->cc('front.baronista@gmail.com, igor_sorrilha@hotmail.com');
+            
 
 
             $this->email->subject($assunto);
@@ -55,7 +57,7 @@ class Contato extends CI_Controller{
     }
 
     public function obrigado(){
-        $data['title'] = 'Reserva Elementum';
+        $data['title'] = 'Reserva Nature Atibaia';
         $data['description'] = 'Terrenos a partir de 360M²';
         $data['keywords'] = 'Reserva Atibaia; Terrenos Atibaia; lotes interior de sp; coworking Atibaia; lotes fernao dias';
         $menu['contato'] = 'active';
@@ -69,7 +71,7 @@ class Contato extends CI_Controller{
     }
 
     public function fail(){
-        $data['title'] = 'Reserva Elementum';
+        $data['title'] = 'Reserva Nature Atibaia';
         $data['description'] = 'Terrenos a partir de 360M²';
         $data['keywords'] = 'Reserva Atibaia; Terrenos Atibaia; lotes interior de sp; coworking Atibaia; lotes fernao dias';
         $menu['contato'] = 'active';

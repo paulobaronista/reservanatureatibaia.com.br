@@ -22,7 +22,7 @@ class Home extends CI_Controller{
     }
     public function politicadeprivacidade()
     {
-        $data['title'] = 'Reserva Elementum';
+        $data['title'] = 'Reserva Nature Atibaia';
         $data['description'] = 'Terrenos a partir de 360M²';
         $data['keywords'] = 'Reserva Atibaia; Terrenos Atibaia; lotes interior de sp; coworking Atibaia; lotes fernao dias';
         $menu['politicadeprivacidade'] = 'active';
@@ -36,7 +36,7 @@ class Home extends CI_Controller{
     }
     public function politicadecookies()
     {
-        $data['title'] = 'Reserva Elementum';
+        $data['title'] = 'Reserva Nature Atibaia';
         $data['description'] = 'Terrenos a partir de 360M²';
         $data['keywords'] = 'Reserva Atibaia; Terrenos Atibaia; lotes interior de sp; coworking Atibaia; lotes fernao dias';
         $menu['politicadecookies'] = 'active';
