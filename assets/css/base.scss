@@ -227,14 +227,14 @@ p {
 .float-box .chat {
     background: url(../images/icone-chat.png) no-repeat right center;
     background-color: rgba(0, 0, 0, 0);
-    background-color: #00400a;
+    background-color: #2e4515;
     border-radius: 11px;
 }
 
 .float-box .phone {
     background: url(../images/icone-tel.png) no-repeat right center;
     background-color: rgba(0, 0, 0, 0);
-    background-color: #00400a;
+    background-color: #2e4515;
     border-radius: 11px;
     font-size: 18px;
 }
@@ -242,14 +242,14 @@ p {
 .float-box .mail {
     background: url(../images/icone-mail.png) no-repeat right center;
     background-color: rgba(0, 0, 0, 0);
-    background-color: #00400a;
+    background-color: #2e4515;
     border-radius: 11px;
 }
 
 .float-box .whats {
     background: url(../images/icone-zap.png) no-repeat right center;
     background-color: rgba(0, 0, 0, 0);
-    background-color: #00400a;
+    background-color: #2e4515;
     border-radius: 11px;
 }
 
@@ -263,7 +263,7 @@ p {
     display: none;
 
     .box {
-        background-color: #dbe296;
+        background-color: #dddc1b;
         padding-top: 20px;
         padding-bottom: 20px;
         position: absolute;
@@ -274,14 +274,14 @@ p {
             font-family: 'Myriad Pro';
             font-weight: normal;
             font-style: normal;
-            color: #00541f;
+            color: #394a16;
             font-size: 12px;
             line-height: 14px;
             margin-top: 7px;
 
             a {
                 text-decoration: underline;
-                color: #00541f;
+                color: #4c5f1d;
             }
         }
 
@@ -298,7 +298,7 @@ p {
             width: 160px;
             margin-top: 7px;
             box-shadow: none;
-            background: #00541f;
+            background: #394a16;
         }
     }
 }
