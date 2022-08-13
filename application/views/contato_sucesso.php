@@ -63,16 +63,10 @@
         <div class="galeria-dupla">
             <section class="glr-dupla slider">
                 <div>
-                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_01.jpg" alt="Reserva Nature Atibaia">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-dupla_01.jpg" alt="Reserva Nature Atibaia">
                 </div>
                 <div>
-                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_02.jpg" alt="Reserva Nature Atibaia">
-                </div>
-                <div>
-                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_03.jpg" alt="Reserva Nature Atibaia">
-                </div>
-                <div>
-                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_04.jpg" alt="Reserva Nature Atibaia">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-dupla_02.jpg" alt="Reserva Nature Atibaia">
                 </div>
             </section>
         </div>

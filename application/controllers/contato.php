@@ -26,11 +26,8 @@ class Contato extends CI_Controller{
 
             $this->email->from("contato@reservanatureatibaia.com.br","Reserva Nature Atibaia");
             $this->email->to('contato@reservanatureatibaia.com.br');
-            /* $this->email->cc('mv_cp_94f_300_1828_3079_13285_73388_3535_3535_faleconosco_landingpage@email.anapro.com.br, renata@spicycomm.com.br, front.baronista@gmail.com, roberta.sabeh@spicycomm.com.br'); */
-            $this->email->cc('front.baronista@gmail.com, igor_sorrilha@hotmail.com');
+            $this->email->cc('mv_cp_94f_300_1828_3079_13285_73388_3535_3535_faleconosco_landingpage@email.anapro.com.br, renata@spicycomm.com.br, front.baronista@gmail.com, roberta.sabeh@spicycomm.com.br');
             
-
-
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
             <head> <meta http-equiv='content-type' content='text/html;charset=UTF-8' /> </head><body>
