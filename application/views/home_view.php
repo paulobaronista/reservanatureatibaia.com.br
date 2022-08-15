@@ -23,7 +23,7 @@
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_02.jpg" alt="Reserva Nature Atibaia">
             </div>
             <div>
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_02.jpg" alt="Reserva Nature Atibaia">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_03.jpg" alt="Reserva Nature Atibaia">
             </div>
             <div>
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_04.jpg" alt="Reserva Nature Atibaia">
@@ -188,7 +188,7 @@
                     VISITE NOSSO SHOWROOM:
                 </p>
                 <p class="tt-05">
-                    Estrada municipal luciano rocha peçanha, 2795 - bairro cachoeira - atibaia - sp
+                    Estrada municipal luciano rocha peçanha, 1405 - bairro cachoeira - atibaia - sp
                 </p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
