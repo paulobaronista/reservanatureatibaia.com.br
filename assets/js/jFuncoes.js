@@ -16,9 +16,7 @@ $(document).on('ready', function () {
         autoplaySpeed: 4000,
     });
 
-    $(".glr-dupla").slick({
-        slidesToShow: 2,
-        slidesToScroll: 2,
+    $(".glr-perspectiva").slick({
         dots: false,
         infinite: true,
         speed: 500,

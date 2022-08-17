@@ -60,13 +60,19 @@
         </div>
     </div>
     <div class="container-fluid padding-off">
-        <div class="galeria-dupla">
-            <section class="glr-dupla slider">
+        <div class="galeria-perspectiva">
+            <section class="glr-perspectiva slider">
                 <div>
-                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-dupla_01.jpg" alt="Reserva Nature Atibaia">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-perspectiva_01.jpg" alt="Reserva Nature Atibaia">
                 </div>
                 <div>
-                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-dupla_02.jpg" alt="Reserva Nature Atibaia">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-perspectiva_02.jpg" alt="Reserva Nature Atibaia">
+                </div>
+                <div>
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-perspectiva_03.jpg" alt="Reserva Nature Atibaia">
+                </div>
+                <div>
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-perspectiva_04.jpg" alt="Reserva Nature Atibaia">
                 </div>
             </section>
         </div>
