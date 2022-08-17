@@ -197,11 +197,11 @@
                     Estrada municipal luciano rocha peçanha, 1405 - bairro cachoeira - atibaia - sp
                 </p>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12">
+           <!--  <div class="col-xs-12 col-sm-12 col-md-12">
                 <a href="https://www.elementumatibaia.com.br/" target="_blank">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cta-elementum.png" alt="Elementum Atibaia">
                 </a>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>
