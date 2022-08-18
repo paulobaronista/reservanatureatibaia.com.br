@@ -115,33 +115,6 @@
                         <div>
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_09.png" alt="Reserva Nature Atibaia">
                         </div>
-                        <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_10.png" alt="Reserva Nature Atibaia">
-                        </div>
-                        <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_11.png" alt="Reserva Nature Atibaia">
-                        </div>
-                        <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_12.png" alt="Reserva Nature Atibaia">
-                        </div>
-                        <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_13.png" alt="Reserva Nature Atibaia">
-                        </div>
-                        <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_14.png" alt="Reserva Nature Atibaia">
-                        </div>
-                        <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_15.png" alt="Reserva Nature Atibaia">
-                        </div>
-                        <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_16.png" alt="Reserva Nature Atibaia">
-                        </div>
-                        <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_17.png" alt="Reserva Nature Atibaia">
-                        </div>
-                        <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_18.png" alt="Reserva Nature Atibaia">
-                        </div>
                     </section>
                 </div>
             </div>
