@@ -113,7 +113,7 @@
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_08.png" alt="Reserva Nature Atibaia">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_09.png" alt="Reserva Nature Atibaia">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/carrossel_10.png" alt="Reserva Nature Atibaia">
                         </div>
                     </section>
                 </div>
