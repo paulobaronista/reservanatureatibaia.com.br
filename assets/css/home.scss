@@ -54,6 +54,17 @@
 
 }
 
+.galeria {
+    position: relative;
+
+    a {
+        position: absolute;
+        bottom: 0%;
+        left: 18%;
+        right: 66%;
+    }
+}
+
 .terrenos360 {
     background-color: #dddc1b;
     position: relative;

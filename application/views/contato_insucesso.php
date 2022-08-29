@@ -32,6 +32,9 @@
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_05.jpg" alt="Reserva Nature Atibaia">
             </div>
         </section>
+        <a href="#" data-toggle="modal" data-target="#modalVideo">
+            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/filme.png" alt="Filme">
+        </a>
     </div>
 </div>
 <div class="container-fluid padding-off terrenos360">
