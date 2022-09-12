@@ -49,30 +49,18 @@
 
 .contato .group-form .form-control::-webkit-input-placeholder {
   color: #4c4034;
-  position: absolute;
-  left: 5%;
-  top: 5px;
 }
 
 .contato .group-form .form-control:-ms-input-placeholder {
   color: #4c4034;
-  position: absolute;
-  left: 5%;
-  top: 5px;
 }
 
 .contato .group-form .form-control::-ms-input-placeholder {
   color: #4c4034;
-  position: absolute;
-  left: 5%;
-  top: 5px;
 }
 
 .contato .group-form .form-control::placeholder {
   color: #4c4034;
-  position: absolute;
-  left: 5%;
-  top: 5px;
 }
 
 .contato .group-form textarea {

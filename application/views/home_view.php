@@ -137,7 +137,7 @@
 <div class="container-fluid padding-off contato">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1">
                 <form method="post" role="form" action="<?php echo base_url("contato") ?>">
                     <div class="group-form">
                         <div class="col-xs-12 col-sm-6 col-md-6 padding-off">
@@ -155,8 +155,10 @@
                             <div class="col-xs-12 col-sm-12 col-md-12 form-group">
                                 <textarea id="form-mensagem" class="msg form-control" rows="4" name="mss" required="required" placeholder="MENSAGEM"></textarea>
                             </div>
-                            <div class="col-xs-12 col-sm-12 col-md-12 form-group">
-                                <button type="submit" class="btn_enviar btn" title="Enviar" name="enviar_email" value="enviar">Enviar</button>
+                            <div class="col-xs-12 col-sm-12 col-md-12 padding-off">
+                                <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+                                    <button type="submit" class="btn_enviar btn" title="Enviar" name="enviar_email" value="enviar">Enviar</button>
+                                </div>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-12">
