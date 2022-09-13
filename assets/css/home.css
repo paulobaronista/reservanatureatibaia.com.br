@@ -57,7 +57,14 @@
   position: relative;
 }
 
-.galeria a {
+.galeria .cronograma {
+  position: absolute;
+  top: -0.2%;
+  left: 5%;
+  right: 78%;
+}
+
+.galeria .filme {
   position: absolute;
   bottom: 0%;
   left: 18%;
@@ -211,6 +218,11 @@
     line-height: 25px;
     letter-spacing: 5px;
   }
+  .galeria .cronograma {
+    top: -0.3%;
+    left: 1.2%;
+    right: 73%;
+  }
   .terrenos360 {
     margin-top: -6px;
   }
@@ -284,6 +296,9 @@
 
 /* Small */
 @media (min-width: 768px) and (max-width: 991px) {
+  .galeria .cronograma {
+    right: 70%;
+  }
   .terrenos360 .faixa-03 {
     width: 59%;
   }
