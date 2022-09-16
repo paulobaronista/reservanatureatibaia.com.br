@@ -32,7 +32,7 @@
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/CARROSEL_LP_ELEMENTUM_05.jpg" alt="Reserva Nature Atibaia">
             </div>
         </section>
-        <a class="cronograma" target="_blank" href="<?= base_url(); ?>assets/pdf/TELA_CRONOGRAMA_FISICO_NATURE.pdf">
+        <a class="cronograma" target="_blank" href="<?= base_url(); ?>assets/pdf/TELA_CRONOGRAMA_FISICO_NATURE_V2.pdf">
             <img class="img-responsive" src="<?= base_url(); ?>assets/images/selo-cronograma.png" alt="Cronograma">
         </a>
         <a class="filme" href="#" data-toggle="modal" data-target="#modalVideo">
